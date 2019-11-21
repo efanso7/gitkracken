@@ -1,6 +1,7 @@
 package com.company;
 
 public class Main {
+
     //this function wil determine how many blocks needed for a pyramid
     public static void countBlocks(int levels) {
         int total = 0;
@@ -8,6 +9,25 @@ public class Main {
             total = total + (i * i);
         }
         System.out.println(total);
+    }
+
+
+	public static void rollASix() {
+        int rollDice = 0;
+
+        while (rollDice != 6) {
+            rollDice = (int) (Math.random() * 6 + 1);
+            System.out.println("You rolled: " + rollDice);
+
+            if (rollDice == 3) {
+                break;
+            }
+        }
+        if (rollDice == 6) {
+            System.out.println("You Win!!!");
+        } else {
+            System.out.println("You Lose");
+        }
     }
 
 
@@ -19,6 +39,10 @@ public class Main {
                 System.out.println("\tInner Loop " + j + ": Hi Everyone!");
             }
         }
+
         countBlocks(5);
+
+	    rollASix();
+
     }
 }
