@@ -28,6 +28,11 @@ public class Main {
         } else {
             System.out.println("You Lose");
         }
+		
+		
+	public static void addnumbers(int numa,int numb) {
+		system.out.println(numa + numb);
+	}	
     }
 
 
@@ -41,8 +46,7 @@ public class Main {
         }
 
         countBlocks(5);
-
-	    rollASix();
-
+	rollASix();
+	addnumbers(6,12);
     }
 }
