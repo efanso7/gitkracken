@@ -28,12 +28,12 @@ public class Main {
         } else {
             System.out.println("You Lose");
         }
-		
-		
-	public static void addnumbers(int numa,int numb) {
-		system.out.println(numa + numb);
-	}	
     }
+
+        public static void addnumbers ( int numA, int numB){
+            System.out.println(numA + numB);
+        }
+
 
 
     public static void main(String[] args) {
@@ -44,7 +44,6 @@ public class Main {
                 System.out.println("\tInner Loop " + j + ": Hi Everyone!");
             }
         }
-
         countBlocks(5);
 	rollASix();
 	addnumbers(6,12);
