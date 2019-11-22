@@ -30,7 +30,9 @@ public class Main {
         }
     }
 
-
+public static void addnumbers ( int numA, int numB){
+            System.out.println(numA + numB);
+        }
 
 
 
@@ -44,6 +46,6 @@ public class Main {
         }
         countBlocks(5);
 	rollASix();
-	
+	addnumbers(12,15);
     }
 }
